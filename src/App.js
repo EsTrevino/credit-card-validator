@@ -47,6 +47,7 @@ class App extends Component {
           onChange={this.handleChange}
           formValue={this.state.formInput}
           result={this.state.result}
+          name={'password'}
           submit={this.onSubmit}
         />
       </div>
